@@ -20,6 +20,7 @@ import '@/assets/css/base.css'
 
 // 注册axios
 axios.defaults.baseURL = 'http://szydak.eicp.net:82'
+// axios.defaults.baseURL = 'http://192.168.1.199:8080'
 // axios.defaults.baseURL = 'http://www.allsps.com'
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8'
 // axios.defaults.timeout = 5000
